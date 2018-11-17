@@ -1,0 +1,25 @@
+{
+  "name": "ts-template",
+  "version": "0.0.0",
+  "description": "TypeScript Template Porject.",
+  "main": "dist/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": "tsc",
+    "run": "node dist",
+    "start": "ts-node src",
+    "test": "ts-node test"
+  },
+  "keywords": [
+    "typescript"
+  ],
+  "author": "Devin Don <DevinDon@Foxmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^10.12.9",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.1.6"
+  }
+}
