@@ -10,7 +10,8 @@
     "build": "tsc",
     "run": "node dist",
     "start": "ts-node src",
-    "test": "ts-node test"
+    "test": "ts-node test",
+    "init": "git remote remove origin && npm init"
   },
   "keywords": [
     "typescript"
