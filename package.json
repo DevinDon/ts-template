@@ -1,7 +1,7 @@
 {
   "name": "ts-template",
   "version": "0.0.0",
-  "description": "TypeScript Template Porject.",
+  "description": "TypeScript Porject Template.",
   "main": "dist/index.js",
   "directories": {
     "test": "test"
