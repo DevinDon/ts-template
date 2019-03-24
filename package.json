@@ -9,9 +9,8 @@
   "scripts": {
     "build": "tsc",
     "run": "node dist",
-    "start": "ts-node src",
-    "test": "ts-node test",
-    "init": "git remote remove origin && npm init"
+    "start": "ts-node src/main",
+    "test": "ts-node src/test"
   },
   "keywords": [
     "typescript"
