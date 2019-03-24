@@ -7,7 +7,7 @@
     {
       "type": "node",
       "request": "launch",
-      "name": "Debug Currect TS File",
+      "name": "Debug - Currect File",
       "program": "${workspaceFolder}/node_modules/ts-node/dist/bin.js",
       "args": [
         "${relativeFile}"
