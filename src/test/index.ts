@@ -1,4 +1,10 @@
-import { hello } from "../main";
+import { hello } from '../main';
 
-console.log("Hello, test!")
-hello();
+describe('hello world', () => {
+
+  it('should say hello', done => {
+    expect(hello('world')).toBe('Hello, world!');
+    done();
+  });
+
+});
