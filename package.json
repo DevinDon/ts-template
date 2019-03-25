@@ -8,6 +8,7 @@
   },
   "scripts": {
     "build": "tsc",
+    "debug": "ts-node src/main",
     "dist": "node dist",
     "start": "npm run build && npm run dist",
     "test": "karma start"
@@ -15,7 +16,7 @@
   "keywords": [
     "typescript"
   ],
-  "author": "Devin Don <DevinDon@Foxmail.com>",
+  "author": "IInfinity <I.INF@Outlook.com>",
   "license": "MIT",
   "private": true,
   "dependencies": {
@@ -32,5 +33,13 @@
     "karma-typescript": "^4.0.0",
     "ts-node": "^8.0.3",
     "typescript": "^3.3.4000"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevinDon/ts-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DevinDon/ts-template/issues"
+  },
+  "homepage": "https://github.com/DevinDon/ts-template#readme"
 }
