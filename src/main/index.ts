@@ -1,3 +1,4 @@
 import { hello } from './Hello';
+import { logger } from '@iinfinity/logger';
 
-console.log(hello('1'));
+logger.info(hello('TypeScript template'));

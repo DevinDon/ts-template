@@ -18,7 +18,9 @@
   "author": "Devin Don <DevinDon@Foxmail.com>",
   "license": "MIT",
   "private": true,
-  "dependencies": {},
+  "dependencies": {
+    "@iinfinity/logger": "0.0.1"
+  },
   "devDependencies": {
     "@types/karma-jasmine": "0.0.31",
     "@types/node": "^11.11.6",
