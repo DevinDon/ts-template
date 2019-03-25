@@ -1,3 +1,3 @@
-export function hello(name: string): string {
-  return `Hello, ${name}!`;
-}
+import { hello } from './Hello';
+
+console.log(hello('1'));

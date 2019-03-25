@@ -1,4 +1,4 @@
-import { hello } from '../main';
+import { hello } from '../main/Hello';
 
 describe('hello world', () => {
 
