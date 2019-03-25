@@ -8,9 +8,9 @@
   },
   "scripts": {
     "build": "tsc",
-    "run": "node dist",
+    "dist": "node dist",
     "start": "ts-node src/main",
-    "test": "ts-node src/test"
+    "test": "karma start"
   },
   "keywords": [
     "typescript"
