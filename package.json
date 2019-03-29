@@ -16,18 +16,18 @@
   "keywords": [
     "typescript"
   ],
-  "author": "IInfinity <I.INF@Outlook.com>",
+  "author": "IInfinity <I.INF@Outlook.com> (https://don.red/)",
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "@iinfinity/logger": "^0.1.0"
+    "@iinfinity/logger": "^0.1.0",
+    "typescript": "^3.3.4000"
   },
   "devDependencies": {
     "@types/jasmine": "^3.3.12",
     "jasmine": "^3.3.1",
     "jasmine-console-reporter": "^3.1.0",
-    "ts-node": "^8.0.3",
-    "typescript": "^3.3.4000"
+    "ts-node": "^8.0.3"
   },
   "repository": {
     "type": "git",
