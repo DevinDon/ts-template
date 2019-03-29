@@ -8,7 +8,7 @@
   },
   "scripts": {
     "build": "tsc",
-    "debug": "ts-node src/main",
+    "debug": "node -r ts-node/register --inspect-brk src/main/index.ts",
     "dist": "node dist",
     "start": "npm run build && npm run dist",
     "test": "node --inspect-brk node_modules/jasmine/bin/jasmine.js --config=jasmine.json --reporter=jasmine-console-reporter --require=ts-node/register"
@@ -25,6 +25,7 @@
   },
   "devDependencies": {
     "@types/jasmine": "^3.3.12",
+    "@types/node": "^11.12.1",
     "jasmine": "^3.3.1",
     "jasmine-console-reporter": "^3.1.0",
     "ts-node": "^8.0.3"
