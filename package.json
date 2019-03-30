@@ -4,7 +4,9 @@
   "description": "TypeScript Porject Template.",
   "main": "dist/index.js",
   "directories": {
-    "test": "test"
+    "doc": "docs",
+    "example": "src/demo",
+    "test": "src/test"
   },
   "scripts": {
     "build": "tsc",
@@ -20,7 +22,7 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "@iinfinity/logger": "^0.1.0",
+    "@iinfinity/logger": "^0.2.0",
     "typescript": "^3.3.4000"
   },
   "devDependencies": {
