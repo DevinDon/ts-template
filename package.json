@@ -1,7 +1,7 @@
 {
   "name": "ts-template",
   "version": "0.0.0",
-  "description": "TypeScript Porject Template.",
+  "description": "TypeScript Template Porject.",
   "main": "dist/index.js",
   "directories": {
     "doc": "docs",
@@ -11,26 +11,26 @@
   "scripts": {
     "build": "tsc",
     "debug": "node -r ts-node/register --inspect-brk src/main/index.ts",
-    "dist": "node dist",
-    "start": "npm run build && npm run dist",
+    "start": "npm run dist",
     "test": "node node_modules/jasmine/bin/jasmine.js --config=jasmine.json --reporter=jasmine-console-reporter --require=ts-node/register"
   },
   "keywords": [
-    "typescript"
+    "typescript",
+    "project"
   ],
   "author": "IInfinity <I.INF@Outlook.com> (https://don.red/)",
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "@iinfinity/logger": "^0.2.0",
-    "typescript": "^3.3.4000"
+    "@iinfinity/logger": "latest"
   },
   "devDependencies": {
     "@types/jasmine": "^3.3.12",
-    "@types/node": "^11.12.1",
+    "@types/node": "latest",
     "jasmine": "^3.3.1",
     "jasmine-console-reporter": "^3.1.0",
-    "ts-node": "^8.0.3"
+    "ts-node": "latest",
+    "typescript": "latest"
   },
   "repository": {
     "type": "git",
