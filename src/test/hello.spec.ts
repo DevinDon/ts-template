@@ -1,4 +1,4 @@
-import { hello, asyncHello } from '../main';
+import { asyncHello, hello } from '../main';
 
 describe('Hello, world!', () => {
 
@@ -7,8 +7,8 @@ describe('Hello, world!', () => {
     done();
   });
 
-  it('should async say `Hello, world!`', done => {
-    expectAsync(asyncHello('world')).toBeResolvedTo('Hello, world!');
+  it('should async say `Hello, world!`', async done => {
+    expect(await asyncHello('world')).toEqual('Hello, world!');
     done();
   });
 
