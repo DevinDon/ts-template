@@ -1,7 +1,9 @@
-export function hello(name: string): string {
+import { Name } from './@types';
+
+export function hello(name: Name): string {
   return `Hello, ${name}!`;
 }
 
-export async function asyncHello(name: string): Promise<string> {
+export async function asyncHello(name: Name): Promise<string> {
   return `Hello, ${name}!`;
 }
