@@ -12,7 +12,7 @@
     "build": "tsc",
     "debug": "node -r ts-node/register --inspect-brk src/main/index.ts",
     "start": "npm run dist",
-    "test": "node node_modules/jasmine/bin/jasmine.js --config=jasmine.json --reporter=jasmine-console-reporter --require=ts-node/register"
+    "test": "node node_modules/jasmine/bin/jasmine.js --config=src/test/jasmine.json --reporter=jasmine-console-reporter --require=ts-node/register"
   },
   "keywords": [
     "typescript",
