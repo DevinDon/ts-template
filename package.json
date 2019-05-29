@@ -8,6 +8,10 @@
     "example": "src/demo",
     "test": "src/test"
   },
+  "files": [
+    "dist",
+    "docs"
+  ],
   "scripts": {
     "build": "tsc",
     "debug": "node -r ts-node/register --inspect-brk src/main/index.ts",
@@ -22,15 +26,15 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "@iinfinity/logger": "0.x"
+    "@iinfinity/logger": "^0.3.3"
   },
   "devDependencies": {
-    "@types/jasmine": "3.x",
-    "@types/node": "11.x",
-    "jasmine": "3.x",
-    "jasmine-console-reporter": "3.x",
-    "ts-node": "8.x",
-    "typescript": "3.x"
+    "@types/jasmine": "^3.3.13",
+    "@types/node": "^12.0.3",
+    "jasmine": "^3.4.0",
+    "jasmine-console-reporter": "^3.1.0",
+    "ts-node": "^8.2.0",
+    "typescript": "^3.4.5"
   },
   "repository": {
     "type": "git",
