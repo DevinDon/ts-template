@@ -1,4 +1,4 @@
-import { Name } from './@types';
+type Name = string;
 
 export function hello(name: Name): string {
   return `Hello, ${name}!`;
@@ -7,5 +7,3 @@ export function hello(name: Name): string {
 export async function asyncHello(name: Name): Promise<string> {
   return `Hello, ${name}!`;
 }
-
-export * from './@types';
