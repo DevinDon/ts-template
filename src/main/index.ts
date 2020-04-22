@@ -7,3 +7,5 @@ export function hello(name: Name): string {
 export async function asyncHello(name: Name): Promise<string> {
   return `Hello, ${name}!`;
 }
+
+console.log(hello('world'));

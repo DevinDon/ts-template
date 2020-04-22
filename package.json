@@ -14,6 +14,7 @@
   ],
   "scripts": {
     "build": "tsc",
+    "clean": "sh -c 'rm -rf dist out temp'",
     "debug": "node --inspect-brk -r ts-node/register src/main/index.ts",
     "dev": "cross-env MODE=DEV node -r ts-node/register src/main/index.ts",
     "pack": "webpack --config webpack.prod.js",
