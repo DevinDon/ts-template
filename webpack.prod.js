@@ -14,8 +14,8 @@ const externals = _externals();
 
 module.exports = {
   entry: './src/main/index.ts',
-  mode: 'development',
-  devtool: 'inline-source-map',
+  mode: 'production',
+  // devtool: 'inline-source-map',
   module: {
     rules: [
       {
@@ -29,7 +29,7 @@ module.exports = {
     extensions: ['.ts', '.js']
   },
   output: {
-    filename: 'bundle.js',
+    filename: 'index.js',
     path: path.resolve(__dirname, 'dist')
   },
   node: {
