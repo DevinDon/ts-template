@@ -8,7 +8,7 @@ describe('Hello, world!', () => {
   });
 
   it('should async say `Hello, world!`', async done => {
-    expect(await asyncHello('world')).toEqual('Hello, world!');
+    expectAsync(asyncHello('world')).toBeResolvedTo('Hello, world!');
     done();
   });
 
