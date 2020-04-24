@@ -8,4 +8,4 @@ export async function asyncHello(name: Name): Promise<string> {
   return `Hello, ${name}!`;
 }
 
-console.log(hello('world'));
+process.stdout.write(hello('world'));
